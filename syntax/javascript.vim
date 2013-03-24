@@ -95,7 +95,7 @@ syntax region  javascriptRegexpString     start=+/[^/*]+me=e-1 skip=+\\\\\|\\/+ 
 " syntax region  javascriptRegexpString     start=+/\(\*\|/\)\@!+ skip=+\\\\\|\\/+ end=+/[gim]\{,3}+ contains=javascriptSpecial,@htmlPreproc oneline
 " syntax match   javascriptNumber           /\<-\=\d\+L\=\>\|\<0[xX]\x\+\>/
 syntax match   javascriptFloat            /\<-\=\%(\d\+\.\d\+\|\d\+\.\|\.\d\+\)\%([eE][+-]\=\d\+\)\=\>/
-" syntax match   javascriptLabel            /\(?\s*\)\@<!\<\w\+\(\s*:\)\@=/
+syntax match   javascriptLabel            /\(?\s*\)\@<!\<\w\+\(\s*:\)\@=/
 "}}}
 "" JavaScript Prototype"{{{
 syntax keyword javascriptPrototype        prototype
